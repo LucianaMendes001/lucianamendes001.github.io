@@ -1,0 +1,178 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 120%;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    position: fixed;
+    margin: 0 0 0 30px;
+    padding-top:10px;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+    
+
+.input-texto {
+    position: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    justify-content: baseline;
+    background-color: #F3F5FC;
+    border:transparent;
+}
+
+::placeholder { color: #0A3871; }
+  
+.input-texto:focus { 
+      border: none;
+      outline: none;
+     }
+
+   
+
+.botoes  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;    
+    margin-top: 20px;
+
+}
+
+label{
+    font-size:12px;
+    line-height: 100%;
+}
+
+.encriptar {
+     
+    position: relative;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background-color: #0A3871;
+    padding: 24px;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    color:white;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    margin-right: 30px;
+    line-height: 19px;
+    justify-content: center; 
+    
+}
+
+
+.desencriptar {
+    position: relative;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background-color: #D8DFE8;
+    padding: 24px;
+    border: 1px #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    padding: 24px;
+    line-height: 19px;
+    justify-content: center; 
+}
+
+
+ .mensagem  {
+    
+    position: fixed;    
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: #FFFFFF;  
+    border: transparent; 
+    border-radius: 32px;
+}
+
+.infomacao {
+    position: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#desaparece {
+
+    position: fixed;    
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 32px;
+    background-image: url("imagens/boneco.png");
+    background-repeat: no-repeat;    
+    background-position: center bottom;    
+    background-size: 350px; 
+}
+
+h2 {
+   text-align: center;
+
+}
+
+h3 {
+   text-align: center;
+   font-size: 18px;
+
+}
+
+
+.copiar {
+    position: relative;
+    top: 455px;
+    left: 150px;
+    background-color:#F3F5FC;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    color:#0A3871;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    line-height: 19px;
+    justify-content: center; 
+    border: 1px solid #0A3871;
+
+    
+}
+
+#aparece {
+    display: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+

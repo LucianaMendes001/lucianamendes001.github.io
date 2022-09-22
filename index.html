@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="UTF-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>       
+        <link rel = "stylesheet" href ="reset.css">
+        <link rel = "stylesheet" href="style.css">
+        <title>Decodificador Alura</title>
+    </head>
+
+    <body>                 
+        
+        <header>
+            <h1><img src ="imagens/logo.png" alt = "Logo da Alura" class = "logo"></h1>
+        </header>
+        <main>
+            
+            <section class = "principal">
+                <textarea class="input-texto" cols=" 30" rows ="10"  placeholder="Digite seu texto"></textarea><br>
+                <img src="imagens/simbolo.png">
+                <label>Apenas letras minúsculas e sem acento.</label>
+                    <div class="botoes">
+                        <button class = "encriptar" onclick = "botaoEncriptar()">Criptografar</button>
+                        <button class = "desencriptar" onclick = "botaoDesencriptar()">Descriptografar</button>
+                    </div>
+            </section>           
+            
+            <section class = "caixa">  
+             <textarea class="mensagem" cols=" 30" rows ="10"></textarea>               
+                <div id="desaparece">                                      
+                    <br><h2 class ="informacao">Nenhuma mensagem encontrada.</h2> <br>
+                    <h3 class ="informacao">Digite um texto que você deseja criptografar ou descriptografar.</h3><br>              
+                </div>                    
+
+                <div id="aparece">
+                    <button class="copiar" onclick="botaocopiar()">Copiar</button>
+                </div>                
+            </section>
+        </main>   
+        <script src="script.js"></script>
+            
+        <footer>
+            <p class ="copyright">&copy; Produzido por L. Mendes</p>         
+
+        </footer>
+    </body>
+</html>
